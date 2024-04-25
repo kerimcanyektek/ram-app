@@ -56,7 +56,7 @@ export default function CharacterPage({ character }: Props) {
       <CharacterContainer>
         <HeaderContainer>
           <GoBack href="/">
-            <MdOutlineArrowBackIosNew /> Back
+            <MdOutlineArrowBackIosNew /> Geri
           </GoBack>
 
           <AddFavoriteButton

@@ -24,7 +24,7 @@ export default function Favorites() {
       </Head>
       <FavoritesContainer>
         <GoBackButton href="/">
-          <MdOutlineArrowBackIosNew size={24} /> Back
+          <MdOutlineArrowBackIosNew size={24} /> Geri
         </GoBackButton>
         {favoritesChar.length > 0 ? (
           <FavoritesList>

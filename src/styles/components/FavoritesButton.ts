@@ -17,6 +17,7 @@ export const FavoritesListButton = styled.a`
 
   svg {
     margin-right: 8px;
+    color: ${design.colors.white};
   }
 
   span {
@@ -36,7 +37,7 @@ export const FavoritesListButton = styled.a`
   }
 
   &:hover {
-    background-color: ${design.colors.yellow};
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
 `
